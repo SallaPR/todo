@@ -50,7 +50,7 @@ app.post("/create", (req, res) => {
 app.delete("/delete/:id", (req, res) => {
   const pool = openDb();
   const id = parseInt(req.params.id);
-  pool.query("delete from task where id = $1)", [id], (error, result) => {
+  pool.query("delete from task where id = $1", [id], (error, result) => {
     if (error) {
       return res.status(500).json({ error: error.message });
     }
