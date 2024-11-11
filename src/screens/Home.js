@@ -60,7 +60,7 @@ function Home() {
     <div id="container">
       <h3>Todos</h3>
       <form>
-        <input
+        <input id="taskInput"
           placeholder="Add new task"
           value={task}
           onChange={(e) => setTask(e.target.value)}

@@ -1,0 +1,68 @@
+#auth-container {
+  max-width: 400px;
+  padding: 16px;
+  margin: 50px auto;
+  background-color: #b6e7be;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+#auth-container h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#auth-container label {
+  font-weight: 600;
+  display: block; 
+  margin-bottom: 5px;
+}
+
+#auth-container input[type="email"],
+#auth-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#auth-container input[type="email"]:focus,
+#auth-container input[type="password"]:focus {
+  border-color: #3e9e71;
+  outline: none;
+}
+
+#auth-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3e9e71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#auth-container button:hover {
+  background-color: #32805c;
+}
+
+/* Link styles */
+
+#auth-container a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #358861;
+  text-decoration: none;
+}
+
+#auth-container a:hover {
+  color: #2a6d4e;
+  text-decoration: underline;
+}

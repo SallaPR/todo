@@ -29,7 +29,7 @@ export default function Authentication({ authenticationMode }) {
     }
   };
   return (
-    <div>
+    <div id="auth-container">
       <h3>{authenticationMode === AuthenticationMode.Login ? "Sign in" : "Sign up"}</h3>
       <form onSubmit={handleSubmit}>
         <div>
